@@ -218,8 +218,8 @@ RShift::-
 +RShift::+`
 
 ;键盘不改键需要的指令(Caps改为退格,Shift+Esc改为Caps)
-;CapsLock::Backspace
-;+Esc::CapsLock
+CapsLock::Backspace
++Esc::CapsLock
 
 ; Alt+IJKL控制光标移动
 !i::Send {Up}
